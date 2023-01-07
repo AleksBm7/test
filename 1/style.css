@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(94, 138, 138);
+}
+
+
+
+.info{
+width: auto;
+flex: auto;
+justify-content: center;
+margin-top: 30px;
+}
+.titulo {
+  margin-left:100px, auto;
+  margin-right:100px, auto;
+}
+.caja{
+width: auto;
+display: flex;
+margin:10px;
+margin-top: 10px;
+   align-items: center;
+   flex-wrap: wrap;
+   gap:4rem;
+    background:rgb(5, 0, 0);
+}
+
+
+
+.caja .orden {
+width: auto;
+margin: 40px;
+flex:1 1 41rem;
+color: #ffffff;
+}
+
+
+
+.caja .row{
+margin-top: 10px;
+    width: auto;
+    justify-content:center;
+   flex:1 1 41rem;
+}
+
+.caja .info{
+flex:1 1 41rem;
+width: auto;
+}
+
+.luna{
+
+width:150px;
+margin: 20px;
+margin-right:50px;
+}
+
+
+.caja .info .luna{
+
+  width:auto;
+}
+
+
+.caja .row .image{
+    width:auto;
+}
+.caja .row .content{
+    flex:1 1 12rem;
+    padding:2rem;
+    justify-content:center;
+}
+.caja .row .content .btn1{
+ font-size: 15px;
+ color: #ffffff;
+}
+
+.caja .row .content .titulo{
+    font-size: 30px;
+    margin-top: 4px;
+    font-style: inherit;
+    color:rgba(255, 255, 255, 0.952);
+    line-height:0.5;
+}
+
+.caja .row .content .colombia{
+width:20px
+}
+
+.caja .row .content .titulo2{
+    font-size: 22px;
+    margin-top: 20px;
+    
+    font-style: inherit;
+    color:rgba(255, 255, 255, 0.952);
+    line-height:0.5;
+}
+.caja .row .content .parrafo{
+    font-size: 18px;
+    margin-top: 8px;
+    font-style: inherit;
+    color:rgba(255, 255, 255, 0.952);
+    line-height:0.5;
+}
+.caja .row .content .parrafo1{
+    font-size: 18px;
+    margin-top: 8px;
+    font-style: inherit;
+    color:rgba(255, 255, 255, 0.952);
+    line-height: 0.5;
+}
+
+.caja .row .content .btn1{
+    font-size: 18px;
+    background-color: rgb(255, 236, 236);
+    margin-top: 8px;
+    font-style: inherit;
+    color:rgba(151, 128, 128, 0.952);
+    line-height: 0.5;
+}
+
+.caja .row .content .btn1:hover{
+    font-size: 18px;
+    background-color: rgb(253, 108, 108);
+    margin-top: 8px;
+    font-style: inherit;
+    color:rgba(0, 0, 0, 0.952);
+    line-height: 0.5;
+}
+
+
+
+
+
+.carrusel {
+  margin-top: -215px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.carrusel-items {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 30px 0px;
+}
+
+.carrusel-item {
+  min-width: 300px;
+  max-width: 300px;
+  height: 200px;
+  outline: 2px solid black;
+  cursor: pointer;
+}
+
+.carrusel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carrusel-item:hover {
+  transform: scale(1.2);
+}
