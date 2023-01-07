@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+:root{
+    --main-color:#d4a46da4;
+    --peru:#ddf506;
+    --black:#13131a;
+    --bg:#8a0000;
+    --trasparente:rgba(255, 255, 255, 0.137);
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+*
+{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: 0;
+    transition: .2s linear;
+
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    background-color:beige;
+}
+
+
+.header{
+
+    display: flex;
+    width: 100%;
+    margin-top:10px;
+    height: 5rem;
+    background-color:#8a0000;
+
+
+}
+
+.header h1{
+    font-size: 30px;
+    margin: 10px;
+    color: antiquewhite;
+}
+
+
+.contain{
+width: 100%;
+height: 1rem;
+color: #8a0000;
+}
+
+
+
+.barra{
+position: relative;
+    display: flex;
+    background-color: var(--black);
+    width: 100%;
+    height: 4rem;
+}
+
+.barra p{
+display: flex;
+margin-top: 0px;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+color: white;
+font-size: 2rem;
+}
+
+
+
+.nav{
+display:flex;
+position: absolute;
+    top: 0px;
+    right:20px;
+    margin: 1px;
+}
+
+.nav .li{
+margin:8px;
+}
+
+
+
+
+
+.nav button a {
+color:antiquewhite;
+font-size: 14px;
+}
+
+
+.index, .contact, .about
+{
+border: none;
+width: 80px;
+height: 30px;
+border-radius: 5px;
+background-color:#8a0000;
+color: rgb(0, 0, 0);
+font-family: "Trebuchet MS",Arial, Helvetica, sans-serif;
+font-weight: 800;
+font-size: 10px;
+transition: all 0.3s;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.index:hover, .contact:hover, .about:hover{
+    background-color:rgb(255, 0, 0)  ;
+}
+
+.index:active, .contact:active, .about:active{
+    background-color:rgba(5, 5, 2, 0.705)  ;
+    color:black;
+
+}
+
+
+
+.logo{
+   
+    display: flex;
+margin-left: auto;
+margin-right: auto;
+    width: 100%;
+    margin-top: 1px;
+}
+
+
+ .logo_img
+{
+margin-left: auto;
+margin-right: auto;
+margin-top:1px;
+width: 80px;
+height: 80px;
+}
+
+.linea{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.137);
+    box-shadow: #8a0000;
+}
+
+
+
+
+.nav_{
+    margin-top: 10px;
+    width:100%
+}
+
+.nav_ li{
+   
+    margin-top: 80px;
+     list-style: none;
+}
+
+
+.photo3{
+    margin-left: 100px;
+    width: 80%;
+}
+
+
+.photo2{
+    width: 55%;
+}
+
+.x{
+width: 100%;
+margin-top:30px;
+}
+
+
+
+
+
+.photo1{
+    width: 55%;
+    margin-left: 300px;
+}
+
+
+.footer
+{
+    display: flex;
+    background-color: var(--bg);
+    width: 100%;
+align-items: center;
+    height: 30px;
+}
+
+footer p{
+  
+    font-size: small;
+    align-items: center;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ .section{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: 80%;
+        padding: 1px 0px;
+        margin:0rem auto;
+        max-width: 90vw;
+        overflow: hidden;}
+/*
+        position:relative
+        top:10px
+        display:flex
+        justify-content:center;
+        aling-item:center;
+        align-sefl: flex-start;
+*/
+
+ 
+
+.main {
+    margin: 8rem;
+}
+
+.main2{
+    margin: 8rem;
+} 
+
+
+.text_{
+    margin-top:
+        30px;
+    }
+
+.text_{
+    font-size:20px
+}
+
+
+.text_ h2{
+    margin-top:20px;
+    font-size:14px
+}
+
+.text_ p {
+    font-size:22px;
+    margin-top:10px;
+    text-align:justify;
+   
+}
+
+
+
+.nav_ h2{
+   
+    font-size:25px
+}
+
+
+.nav_ h3{
+   
+    font-size:20px
+}
+
+
+.nav_  p {
+    font-size:20px;
+    margin-top:10px;
+    text-align:justify;
+}
+
+
+.main .k{
+position: relative;
+margin-right: 30%;
+
+}
